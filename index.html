@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogr landing page</title>
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/responsive.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg color" id="nav-bar">
+        <!-- <div class="container-fluid"> -->
+        <img class="navbar-brand" src="./images/logo.svg" alt="Blogr Logo" />
+        <button
+          class="navbar-toggler"
+          id="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon" id="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="nav-link"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Product
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Smart Phone</a></li>
+                <li><a class="dropdown-item" href="#">Tablets</a></li>
+                <li><a class="dropdown-item" href="#">Laptops</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="nav-link"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Company
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Samsung</a></li>
+                <li><a class="dropdown-item" href="#">Apple</a></li>
+                <li><a class="dropdown-item" href="#">HP</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="nav-link"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Connect
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Contact</a></li>
+                <li><a class="dropdown-item" href="#">Newsletter</a></li>
+                <li><a class="dropdown-item" href="#">LinkedIn</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <button class="btn text-white" id="login-btn" type="submit">
+              Login
+            </button>
+            <button class="btn rounded-pill" id="signup-btn" type="submit">
+              Sign Up
+            </button>
+          </form>
+        </div>
+        <!-- </div> -->
+      </nav>
+
+      <p class="h1 container text-center text-white pt-4" id="title-header">
+        A modern publishing platform
+      </p>
+      <p class="container text-center text-white pt-3">
+        Grow your audience and built your online brand
+      </p>
+      <div class="container text-center mt-5">
+        <button class="btn rounded-pill" id="signup-btn">Strat for Free</button>
+        <button class="btn btn-outline-light rounded-pill" id="btnn">
+          Learn More
+        </button>
+      </div>
+    </header>
+
+    <main class="main">
+      <p class="h2 container text-center mt-5 pt-3" id="heading">
+        Designed for the future
+      </p>
+      <div class="container-fluid d-flex" id="d-flex">
+        <div class="container ms-3">
+          <p class="h4 pt-5" id="heading">Introducing an extensible editor</p>
+          <p class="pt-4 text">
+            Blogr features an exceedingly intuitive interface which lets you
+            focus on one thing: creating content. The editor supports management
+            of multiple blogs and allows easy manipulation of embeds such as
+            image, videos, and Markdown. Extensibility with pugins and themes
+            provide easy ways to add functionality or change the looks of a
+            blog.
+          </p>
+          <p class="h4 pt-5" id="heading1">Robust content management</p>
+          <p class="pt-4 text">
+            Flexible content management enables uses to easily move through
+            posts. increases the usability of your blog by adding customized
+            categories, sections, format, or flow. With this functionality,
+            you're in full control.
+          </p>
+        </div>
+        <img
+          src="./images/illustration-editor-desktop.svg"
+          alt="Illustration Editor Desktop"
+          class="img-fluid container-fluid align-self-end"
+        />
+      </div>
+
+      <div class="container-fluid d-flex" id="dd-flex">
+        <img
+          src="./images/illustration-laptop-desktop.svg"
+          alt="Illustration Laptop Desktop"
+          class="img-fluid container-fluid align-self-end"
+        />
+        <div class="container ms-3">
+          <p class="h4 pt-5" id="heading">Free, open, simple</p>
+          <p class="pt-4 text">
+            Blogr is a free and open source application backed by a large
+            community of helpful developers. It supports features such as code
+            syntax highlighting. RSS feeds, social media integration,
+            third-party commenting tools, and works seamlessly with Google
+            Analytics. The arcitecture is clean and is relatively easy to learn.
+          </p>
+          <p class="h4 pt-5" id="heading1">Powerful tooling</p>
+          <p class="pt-4 text">
+            Batterirs included. We built a simple and strightforward CLI tool
+            that makes customization and develoyment a breeze, but capable of
+            producing even the most complicated sites.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer text-center text-lg-start bg-dark text-white mt-5">
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <!-- Left -->
+        <!-- <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div> -->
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <!-- <i class="fas fa-gem me-3"></i>Company name -->
+                <img src="./images/logo.svg" alt="Blogr Logo" class="img-fluid">
+              </h6>
+              <!-- <p>
+                Here you can use rows and columns to organize your footer
+                content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit.
+              </p> -->
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+              <p>
+                <a href="#!" class="text-reset">Angular</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">React</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Vue</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Laravel</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+              <p>
+                <a href="#!" class="text-reset">Pricing</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Settings</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Orders</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                info@example.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+    </footer>
+
+    <!-- This is JS bootstrap Bundle -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
